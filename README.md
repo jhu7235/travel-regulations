@@ -1,12 +1,16 @@
 # travel-regulations
 
+This repository is for creating a google cloud server that can pull in travel restriction data and save it in firestore database.
+
 ## Setup
 
-get firebase cli
+Get firebase cli. This is required for local development
 
 ```
 npm i -g firebase-tools
 ```
+
+Install dependencies.
 
 ```
 cd functions/
