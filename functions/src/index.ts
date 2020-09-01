@@ -7,6 +7,7 @@ import { firestore, functions } from './firebase/firebase';
 
 /**
  * Syncs travel regulations from iata source.
+ * TODO: restrict endpoint access to only allow google cloud cron service
  * Triggered by pubsub (https://console.cloud.google.com/cloudscheduler?project=covid-border)
  * locally served at http://localhost:5034/covid-border/us-central1/syncTravelRegulations
  */
